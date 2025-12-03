@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
               <Icon name="GraduationCap" className="text-white" size={24} />
             </div>
-            <span className="text-xl font-bold text-foreground">EduPlatform</span>
+            <span className="text-xl font-bold text-foreground">KabanovCurses</span>
           </Link>
 
           <div className="hidden md:flex items-center space-x-1">

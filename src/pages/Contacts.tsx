@@ -29,8 +29,8 @@ const Contacts = () => {
     {
       icon: 'Mail',
       title: 'Email',
-      value: 'support@eduplatform.ru',
-      link: 'mailto:support@eduplatform.ru',
+      value: 'support@kabanovcurses.ru',
+      link: 'mailto:support@kabanovcurses.ru',
     },
     {
       icon: 'Phone',
