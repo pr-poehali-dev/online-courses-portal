@@ -19,9 +19,11 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-              <Icon name="GraduationCap" className="text-white" size={24} />
-            </div>
+            <img 
+              src="https://cdn.poehali.dev/projects/99d23596-3284-4535-aa32-c811a8e7cbd7/files/2f07a9e7-5c2a-4024-beb0-3165a033f1f6.jpg" 
+              alt="KabanovCurses Logo" 
+              className="w-10 h-10 rounded-lg object-cover"
+            />
             <span className="text-xl font-bold text-foreground">KabanovCurses</span>
           </Link>
 

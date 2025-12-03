@@ -46,6 +46,13 @@ const Home = () => {
       <section className="relative bg-gradient-to-br from-primary/10 via-background to-secondary/20 py-24 overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center animate-fade-in">
+            <div className="mb-6 flex justify-center">
+              <img 
+                src="https://cdn.poehali.dev/projects/99d23596-3284-4535-aa32-c811a8e7cbd7/files/2f07a9e7-5c2a-4024-beb0-3165a033f1f6.jpg" 
+                alt="Оранжевый Кабан" 
+                className="w-32 h-32 rounded-full object-cover shadow-lg"
+              />
+            </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground">
               Обучайтесь в своём темпе
             </h1>
