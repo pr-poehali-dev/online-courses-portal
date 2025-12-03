@@ -189,11 +189,15 @@ const Catalog = () => {
 
         {filteredCourses.length === 0 && (
           <div className="text-center py-16">
-            <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-muted mb-4">
-              <Icon name="SearchX" size={40} className="text-muted-foreground" />
+            <div className="inline-flex items-center justify-center w-32 h-32 mb-4">
+              <img 
+                src="https://cdn.poehali.dev/projects/99d23596-3284-4535-aa32-c811a8e7cbd7/files/2f07a9e7-5c2a-4024-beb0-3165a033f1f6.jpg"
+                alt="Грустный кабан"
+                className="w-full h-full rounded-full object-cover opacity-50"
+              />
             </div>
             <h3 className="text-2xl font-semibold mb-2">Курсы не найдены</h3>
-            <p className="text-muted-foreground mb-6">Попробуйте изменить параметры поиска</p>
+            <p className="text-muted-foreground mb-6">Кабан искал везде, но ничего не нашёл. Попробуйте изменить параметры поиска</p>
             <Button onClick={() => {
               setSearchQuery('');
               setSelectedCategory('all');

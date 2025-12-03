@@ -155,7 +155,14 @@ const Home = () => {
       <section className="py-16 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold text-center mb-12">Почему выбирают нас</h2>
+            <div className="flex items-center justify-center gap-4 mb-12">
+              <h2 className="text-4xl font-bold text-center">Почему выбирают нас</h2>
+              <img 
+                src="https://cdn.poehali.dev/projects/99d23596-3284-4535-aa32-c811a8e7cbd7/files/2f07a9e7-5c2a-4024-beb0-3165a033f1f6.jpg"
+                alt="Счастливый кабан"
+                className="w-16 h-16 rounded-full object-cover hidden md:block"
+              />
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {[
                 {

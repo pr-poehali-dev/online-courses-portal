@@ -56,9 +56,16 @@ const Contacts = () => {
     <div className="min-h-screen pt-16 bg-background">
       <div className="bg-gradient-to-br from-primary/10 to-secondary/20 py-16">
         <div className="container mx-auto px-4 text-center">
+          <div className="mb-6 flex justify-center">
+            <img 
+              src="https://cdn.poehali.dev/projects/99d23596-3284-4535-aa32-c811a8e7cbd7/files/2f07a9e7-5c2a-4024-beb0-3165a033f1f6.jpg"
+              alt="Кабан на связи"
+              className="w-24 h-24 rounded-full object-cover shadow-md"
+            />
+          </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Свяжитесь с нами</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Есть вопросы? Мы всегда рады помочь вам в вашем обучении
+            Есть вопросы? Кабан и команда всегда рады помочь вам в вашем обучении
           </p>
         </div>
       </div>

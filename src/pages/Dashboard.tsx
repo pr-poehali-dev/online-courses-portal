@@ -59,9 +59,16 @@ const Dashboard = () => {
       <div className="bg-gradient-to-br from-primary/10 to-secondary/20 py-12">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between mb-8">
-            <div>
-              <h1 className="text-4xl font-bold mb-2">Личный кабинет</h1>
-              <p className="text-muted-foreground">Отслеживайте свой прогресс обучения</p>
+            <div className="flex items-center gap-4">
+              <img 
+                src="https://cdn.poehali.dev/projects/99d23596-3284-4535-aa32-c811a8e7cbd7/files/d1a0616d-6bd4-453d-8721-1145a38b0b73.jpg"
+                alt="Кабан-ученик"
+                className="w-16 h-16 rounded-full object-cover shadow-md hidden md:block"
+              />
+              <div>
+                <h1 className="text-4xl font-bold mb-2">Личный кабинет</h1>
+                <p className="text-muted-foreground">Отслеживайте свой прогресс обучения</p>
+              </div>
             </div>
             <div className="hidden md:flex items-center space-x-2">
               <Button variant="outline">
